@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section  */
+.section-one{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-one__title{
+    color: white;
+}
+
+.section-one__links a, p{
+    color: gray;
+    text-decoration: none;
+}
+
+.section-one__links a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+/* Middle section */
+.section-two{
+    text-align: center;
+    padding: 10px;
+}
+
+.section-two__list{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.section-two__order-button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Contact */
+.section-three{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-three__form{
+    width: 50%;
+    display: inline-block;
+}
+
+.section-three__table{
+    display: inline-block;
+}
+
+.section-three__table td{
+    padding: 2px;
+}
+
+.section-three__table--col1{
+    text-align: left;
+}
+
+.section-three__input{
+    padding: 5px;
+    border: none;
+}
+
+.section-three__input:focus{
+    outline: none;
+    border: none;
+    background-color: gainsboro;
+}
+
+.section-three__send-button{
+    background-color: yellow;
+    padding: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+}
